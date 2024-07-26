@@ -4,19 +4,20 @@ public class Person {
     int age;
     boolean married;
 
-     String getName() {
+    String getName() {
         return name;
     }
 
-     int getAge() {
+    int getAge() {
         return age;
     }
 
-     boolean isMarried() {
+    boolean isMarried() {
         return married;
     }
 
-    String getInformation(){
-         return getName() + getAge() + " " + isMarried();
+    String getInformation() {
+
+        return getName() + getAge() + " " + isMarried();
     }
 }
